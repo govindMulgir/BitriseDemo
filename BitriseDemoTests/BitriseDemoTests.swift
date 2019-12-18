@@ -22,9 +22,7 @@ class BitriseDemoTests: XCTestCase {
     func testExample() {
         let vc = ViewController()
         
-        if vc.testValues != 10 {
-            XCTFail("Expected value is 10")
-        }
+        XCTAssert(vc.testValues == 10, "Expected value is 10")
     }
 
     func testPerformanceExample() {
