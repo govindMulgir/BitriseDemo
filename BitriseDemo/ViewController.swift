@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .gray
         // Do any additional setup after loading the view.
+        
+        print("Hello")
     }
 
 
