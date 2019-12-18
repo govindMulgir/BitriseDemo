@@ -10,15 +10,15 @@ import UIKit
 
 class BLogger: NSObject {
 
-    static func BLogInfo(_ message: String) {
-        print("[INFO]:] \(message)")
-    }
-    
-    static func BLogWarning(_ message: String) {
-        print("[WARNING]:] \(message)")
-    }
-    
-    static func BLogError(_ message: String) {
-        print("[ERROR]:] \(message)")
-    }
+//    static func BLogInfo(_ message: String) {
+//        print("[INFO]:] \(message)")
+//    }
+//
+//    static func BLogWarning(_ message: String) {
+//        print("[WARNING]:] \(message)")
+//    }
+//
+//    static func BLogError(_ message: String) {
+//        print("[ERROR]:] \(message)")
+//    }
 }
