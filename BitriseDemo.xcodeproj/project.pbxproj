@@ -13,6 +13,7 @@
 		845AFCAE23AA1F5900794DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845AFCAD23AA1F5900794DE9 /* Assets.xcassets */; };
 		845AFCB123AA1F5900794DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845AFCAF23AA1F5900794DE9 /* LaunchScreen.storyboard */; };
 		845AFCBC23AA1F5900794DE9 /* BitriseDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AFCBB23AA1F5900794DE9 /* BitriseDemoTests.swift */; };
+		845AFCC723AA204400794DE9 /* BLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845AFCC623AA204400794DE9 /* BLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		845AFCB723AA1F5900794DE9 /* BitriseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845AFCBB23AA1F5900794DE9 /* BitriseDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseDemoTests.swift; sourceTree = "<group>"; };
 		845AFCBD23AA1F5900794DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845AFCC623AA204400794DE9 /* BLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				845AFCAD23AA1F5900794DE9 /* Assets.xcassets */,
 				845AFCAF23AA1F5900794DE9 /* LaunchScreen.storyboard */,
 				845AFCB223AA1F5900794DE9 /* Info.plist */,
+				845AFCC623AA204400794DE9 /* BLogger.swift */,
 			);
 			path = BitriseDemo;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845AFCC723AA204400794DE9 /* BLogger.swift in Sources */,
 				845AFCA923AA1F5700794DE9 /* ViewController.swift in Sources */,
 				845AFCA723AA1F5700794DE9 /* AppDelegate.swift in Sources */,
 			);
